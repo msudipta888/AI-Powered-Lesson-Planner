@@ -174,9 +174,9 @@ Ensure the final lesson plan is concise, engaging, and presented in a profession
       setContentBlocks(formattedText.split("\n\n"));
 
       toast("Successfully generated lesson content");
-    } catch (error: any) {
+    } catch (error) {
       console.error(error);
-      toast(`Cannot generate content: ${error.message || error}`);
+      toast(`Cannot generate content: ${error}`);
     } finally {
       setIsGenerating(false);
     }
@@ -198,7 +198,7 @@ Ensure the final lesson plan is concise, engaging, and presented in a profession
       );
       toast("Successfully saved content in local storage");
     } catch (error) {
-      toast("Error saving lesson content");
+      toast(`Error saving lesson content: ${error}`);
     }
   };
 
@@ -215,7 +215,7 @@ Ensure the final lesson plan is concise, engaging, and presented in a profession
         toast("No content available to download");
       }
     } catch (error) {
-      toast("Something went wrong during download!");
+      toast(`Something went wrong during download!: ${error}`);
     }
   };
 
