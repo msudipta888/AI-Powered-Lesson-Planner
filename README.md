@@ -8,7 +8,6 @@ This project is a lesson plan generator that utilizes the **Gemini 1.5 Flash** m
 - Real-time content display
 - Toast notifications for success and error handling
 
----
 
 ## 🛠️ Setup Instructions
 
