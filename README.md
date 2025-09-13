@@ -95,7 +95,6 @@ setStore(formattedText);
 setContentBlocks(formattedText.split("\n\n"));
 ```
 
-By following these steps, even developers with beginner or intermediate experience can easily understand and implement the API integration.
 
 ---
 
