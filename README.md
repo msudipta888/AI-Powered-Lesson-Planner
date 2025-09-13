@@ -15,7 +15,6 @@ This project is a lesson plan generator that utilizes the **Gemini 1.5 Flash** m
 ```bash
 git clone <repository-url>
 cd <repository-folder>
-```
 
 ### 2. Install Dependencies
 ```bash
